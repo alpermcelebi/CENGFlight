@@ -1,0 +1,82 @@
+# Airport Names (Vertices)
+Ankara(ESB)
+Istanbul(IST)
+Istanbul(SAW)
+Izmir(ADB)
+Trabzon(TZX)
+Milas-Bodrum(BJW)
+Dalaman(DLM)
+Antalya(AYT)
+Hatay(HTY)
+Van(VAN)
+
+# Flights
+# First Weight: Time
+# Second Weight: Cost (TRY)
+
+# Ankara - Istanbul
+Ankara(ESB) Istanbul(IST) THY 90 100
+Ankara(ESB) Istanbul(IST) BoraJet 95 80
+Ankara(ESB) Istanbul(IST) Pegasus 90 70
+# Istanbul - Ankara
+Istanbul(IST) Ankara(ESB) THY 95 110
+Istanbul(IST) Ankara(ESB) BoraJet 90 80
+Istanbul(IST) Ankara(ESB) Pegasus 100 120
+
+# Ankara - Istanbul (Sabiha Gokcen)
+Ankara(ESB) Istanbul(SAW) AnadoluJet 60 120
+Ankara(ESB) Istanbul(SAW) BoraJet 55 200
+Ankara(ESB) Istanbul(SAW) Pegasus 90 150
+Ankara(ESB) Istanbul(SAW) OnurAir 93 120
+# Istanbul (Sabiha Gokcen) - Ankara
+Istanbul(SAW) Ankara(ESB) AnadoluJet 60 220
+Istanbul(SAW) Ankara(ESB) BoraJet 55 60
+Istanbul(SAW) Ankara(ESB) Pegasus 60 150
+
+# Milas/Bodrum - Ankara
+Milas-Bodrum(BJW) Ankara(ESB) Pegasus 50 60
+Milas-Bodrum(BJW) Ankara(ESB) AnadoluJet 40 70
+
+# Ankara - Milas/Bodrum
+Ankara(ESB) Milas-Bodrum(BJW) Pegasus 20 70
+Ankara(ESB) Milas-Bodrum(BJW) AnadoluJet 70 40
+
+# Ankara - Izmir
+Ankara(ESB) Izmir(ADB) BoraJet 50 90
+
+# Izmir - Ankara
+Izmir(ADB) Ankara(ESB) BoraJet 60 20
+
+# Milas/Bodrum - Dalaman
+Milas-Bodrum(BJW) Dalaman(DLM) Pegasus 50 60
+Milas-Bodrum(BJW) Dalaman(DLM) AnadoluJet 40 70
+
+# Istanbul (Sabiha Gokcen) - Trabzon
+Istanbul(SAW) Trabzon(TZX) Pegasus 90 120
+Istanbul(SAW) Trabzon(TZX) AnadoluJet 130 80
+
+# Trabzon - Istanbul (Sabiha Gokcen)
+Trabzon(TZX) Istanbul(SAW) Pegasus 80 110
+Trabzon(TZX) Istanbul(SAW) AnadoluJet 120 90
+
+# Dalaman - Trabzon
+Dalaman(DLM) Trabzon(TZX) BoraJet 90 110
+Dalaman(DLM) Trabzon(TZX) AnadoluJet 50 120
+
+# Trabzon - Dalaman
+Trabzon(TZX) Dalaman(DLM) Pegasus 90 110
+Trabzon(TZX) Dalaman(DLM) AnadoluJet 60 90
+
+# Ankara - Dalaman
+Ankara(ESB) Dalaman(DLM) Pegasus 60 120
+Ankara(ESB) Dalaman(DLM) AnadoluJet 90 50
+
+# Dalaman - Antalya
+Dalaman(DLM) Antalya(AYT) BoraJet 40 90
+
+# Istanbul (Sabiha Gokcen) - Hatay
+Istanbul(SAW) Hatay(HTY) Pegasus 200 100
+Istanbul(SAW) Hatay(HTY) BoraJet 150 120
+
+# Bodrum/Milas - Van
+Milas-Bodrum(BJW) Van(VAN) Pegasus 200 100
