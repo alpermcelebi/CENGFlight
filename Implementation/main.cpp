@@ -5,7 +5,7 @@
 
 int main(int argc, const char* argv[])
 {
-    // For testing from VPL
+    // For testing
     //  ...
     return 0;
 }
